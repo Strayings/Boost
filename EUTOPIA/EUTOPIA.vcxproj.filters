@@ -16,8 +16,6 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ArrayList.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\BGAnimation.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGUI.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGuiNew.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ClientMainUI.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ColorPicker.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\CustomFont.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\Editor.cpp" />
@@ -151,19 +149,7 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Combat\InfinityAura.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\HelpCommand.cpp" />
     <ClCompile Include="Client\Managers\HooksManager\Hooks\SetUpAndRenderHook.cpp" />
-    <ClCompile Include="1.cpp" />
-    <ClCompile Include="2.cpp" />
-    <ClCompile Include="3.cpp" />
-    <ClCompile Include="4.cpp" />
-    <ClCompile Include="5.cpp" />
-    <ClCompile Include="6.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Player\ChestStealer.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\923829mksd.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\iokfehihv.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\idjvijsdneoamv.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\orejviu9ej.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\fwhibhnvwq.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\ojmgwokvnen.cpp" />
     <ClCompile Include="Utils\switch.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Combat\Crits.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\World\Top.cpp" />
@@ -172,7 +158,6 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Combat\InsideAura.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\IRC.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\IRCCommand.cpp" />
-    <ClCompile Include="Client\Managers\CommandManager\Commands\AICommand.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\SearchBox.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Movement\NoClip.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\AIChat.cpp" />
@@ -185,7 +170,6 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Player\SurfaceTP.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\NewChunks.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Misc\Timer2.cpp" />
-    <ClCompile Include="Client\Managers\CommandManager\Commands\KeyCommand.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ToggleSounds.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\AudioData.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\Audio.cpp" />
@@ -226,8 +210,6 @@
     <ClCompile Include="Client\Managers\CommandManager\Commands\AssistantCommand.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\World\Spawn.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\World\ItemTeleport.cpp" />
-    <ClCompile Include="Client\Managers\ConfigManager\KeyManager.cpp" />
-    <ClCompile Include="Client\Managers\KeyManager\KeyManager.cpp" />
     <ClCompile Include="Utils\Minecraft\Utils.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\MobTags.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Misc\NameProtect.cpp" />
@@ -257,10 +239,7 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Render\HitVisuals.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ConfigLoader.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\FontCommand.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\AutoKey.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\ThemeCommand.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\32ueu2j.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\qwoihfunq23.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Player\PlayerScanner.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Combat\KillauraReachY2.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Combat\KillauraReachY.cpp" />
@@ -325,8 +304,6 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ArrayList.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\BGAnimation.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGUI.h" />
-    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGuiNew.h" />
-    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ClientMainUI.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ColorPicker.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\CustomFont.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\Editor.h" />
@@ -1005,7 +982,6 @@
     <ClInclude Include="Client\Managers\CommandManager\Commands\HelpCommand.h" />
     <ClInclude Include="xorstr.hpp" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Player\ChestStealer.h" />
-    <ClInclude Include="evhihewhq.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Combat\Crits.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\World\Top.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Combat\AboveAura.h" />
@@ -1013,7 +989,6 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Combat\InsideAura.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\IRC.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\IRCCommand.h" />
-    <ClInclude Include="Client\Managers\CommandManager\Commands\AICommand.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\SearchBox.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Movement\NoClip.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\AIChat.h" />
@@ -1029,7 +1004,6 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Misc\Timer2.h" />
     <ClInclude Include="Client\Managers\HooksManager\Hooks\Render\HurtColorHook.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\HurtColor.h" />
-    <ClInclude Include="Client\Managers\CommandManager\Commands\KeyCommand.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ToggleSounds.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\AudioData.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\Audio.h" />
@@ -1072,8 +1046,6 @@
     <ClInclude Include="Client\Managers\CommandManager\Commands\AssistantCommand.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\World\Spawn.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\World\ItemTeleport.h" />
-    <ClInclude Include="Client\Managers\ConfigManager\KeyManager.h" />
-    <ClInclude Include="Client\Managers\KeyManager\KeyManager.h" />
     <ClInclude Include="Utils\Minecraft\Utils.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\MobTags.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Misc\NameProtect.h" />
@@ -1106,7 +1078,6 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Render\HitVisuals.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ConfigLoader.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\FontCommand.h" />
-    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\AutoKey.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\ThemeCommand.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ircboi.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Player\PlayerScanner.h" />

@@ -4,7 +4,7 @@
 #include "Modules/Category/Movement/Airjump.h"
 #include "Modules/Category/World/TestTpmine.h"
 void ModuleManager::minit() {
-    moduleList.push_back(new AutoKey());
+    //moduleList.push_back(new AutoKey());
     // must have
     moduleList.push_back(new ClickGUI());
     moduleList.push_back(new Editor());
@@ -47,7 +47,7 @@ void ModuleManager::minit() {
     getModule<ClickGUI>()->InitClickGUI();
     getModule<Arraylist>()->setEnabled(true);
     getModule<HUD>()->setEnabled(true);
-    getModule<AutoKey>()->setEnabled(true);
+    //getModule<AutoKey>()->setEnabled(true);
 }
 
 void ModuleManager::init() {
@@ -200,146 +200,7 @@ void ModuleManager::init() {
   
 }
 
-/*
-void ModuleManager::init() {
 
-    //Client
-    moduleList.push_back(new Arraylist());
-    moduleList.push_back(new UserInfo());
-    //moduleList.push_back(new IRC());
-    moduleList.push_back(new AIChat());
-    moduleList.push_back(new ClickGUI());
-    moduleList.push_back(new BGAnimation());
-    moduleList.push_back(new CustomFont());
-    moduleList.push_back(new NeteaseMusicGUI());
-    moduleList.push_back(new HUD());
-    moduleList.push_back(new Colors());
-    moduleList.push_back(new Editor());
-    moduleList.push_back(new AirJump());
-    moduleList.push_back(new SearchBox());
-    //moduleList.push_back(new Configs());
-
-
-    //Test
-    moduleList.push_back(new TestModule());
-    //Combat
-    moduleList.push_back(new KillAura2());
-    moduleList.push_back(new InsideAura());
-    moduleList.push_back(new AboveAura());
-    //moduleList.push_back(new DashAura());
-    //moduleList.push_back(new Crits());
-    moduleList.push_back(new KillAura());
-    moduleList.push_back(new Hitbox());
-    moduleList.push_back(new InfinityAura());
-    //moduleList.push_back(new Switcher());
-    moduleList.push_back(new DamageText());
-    moduleList.push_back(new Surround());
-    moduleList.push_back(new TPAura());
-    moduleList.push_back(new BowSpam());
-    moduleList.push_back(new Criticals());
-    moduleList.push_back(new Reach());
-    moduleList.push_back(new KillAura3());
-    moduleList.push_back(new TriggerBot());
-    moduleList.push_back(new AutoClicker());
-    //moduleList.push_back(new CriticalsLB());
-
-;  	//Movement
-    moduleList.push_back(new FlyLB());
-    //moduleList.push_back(new ElytraFly());
-    moduleList.push_back(new Velocity());
-    moduleList.push_back(new Speed());
-    moduleList.push_back(new NoSlow());
-    moduleList.push_back(new Fly());
-    moduleList.push_back(new Phase());
-    moduleList.push_back(new AutoSneak());
-    moduleList.push_back(new NoClip());
-    //moduleList.push_back(new AutoJump());
-    moduleList.push_back(new AutoSprint());
-    moduleList.push_back(new Step());
-    moduleList.push_back(new Jetpack());
-    moduleList.push_back(new Spider());
-    moduleList.push_back(new Jesus());
-    //Render
-    moduleList.push_back(new NoRender());
-    moduleList.push_back(new DeathPos());
-    moduleList.push_back(new Keystrokes());
-    moduleList.push_back(new NameTags());
-    moduleList.push_back(new NewChunks());
-    moduleList.push_back(new Swing());
-    moduleList.push_back(new NoSwing());
-    moduleList.push_back(new CustomFov());
-    moduleList.push_back(new CameraTweaks());
-    moduleList.push_back(new Fullbright());
-    moduleList.push_back(new ChunkBorders());
-    moduleList.push_back(new NoHurtCam());
-    moduleList.push_back(new BlockHighlight());
-    moduleList.push_back(new SetColor());
-    moduleList.push_back(new CrystalChams());
-    moduleList.push_back(new PortalESP());
-    moduleList.push_back(new StorageESP());
-    moduleList.push_back(new GlintColor());
-    moduleList.push_back(new ESP());
-    moduleList.push_back(new OreESP());
-    moduleList.push_back(new CustomSky());
-    moduleList.push_back(new Tracer()); // registered
-    //moduleList.push_back(new TargetHUD());
-
-    moduleList.push_back(new ViewModel());
-    //Player
-    moduleList.push_back(new BlockReach());
-    moduleList.push_back(new Offhand());
-    moduleList.push_back(new AntiCrystal());
-    moduleList.push_back(new ChestStealer());
-    moduleList.push_back(new MidClick());
-    moduleList.push_back(new EnemyTP());
-    moduleList.push_back(new SurfaceTP());
-    moduleList.push_back(new PacketMine());
-    moduleList.push_back(new PopCounter());
-    moduleList.push_back(new Clip());
-    moduleList.push_back(new AutoEat());
-
-
-
-    // World
-    moduleList.push_back(new Nuker());
-    moduleList.push_back(new TpMine());
-    //moduleList.push_back(new Top());
-    //moduleList.push_back(new LbTP());
-    moduleList.push_back(new Hub());
-    moduleList.push_back(new AirPlace());
-    //moduleList.push_back(new WaterTP());
-    moduleList.push_back(new AutoHub());
-    moduleList.push_back(new OreMiner());
-    moduleList.push_back(new Scaffold());
-    moduleList.push_back(new AutoEZ());
-    moduleList.push_back(new NoFall());
-    //moduleList.push_back(new ChestTP());
-    //Misc
-    moduleList.push_back(new NoPacket());
-    moduleList.push_back(new AntiBot());
-    moduleList.push_back(new Timer());
-    moduleList.push_back(new Timer2());
-    moduleList.push_back(new Twerk());
-    moduleList.push_back(new Disabler());
-    moduleList.push_back(new PlayerJoin());
-    moduleList.push_back(new Spammer());
-    moduleList.push_back(new ModWarning());
-    moduleList.push_back(new DeviceSpoofer());
-    moduleList.push_back(new DisablerNew());
-    //moduleList.push_back(new SMTeleport());
-
-    moduleList.push_back(new Chat());
-    std::sort(moduleList.begin(), moduleList.end(), [](Module* lhs, Module* rhs) {
-        return lhs->getModuleName() < rhs->getModuleName();
-        });
-    getModule<ClickGUI>()->InitClickGUI();
-    getModule<Arraylist>()->setEnabled(true);
-    getModule<HUD>()->setEnabled(true);
-
-
-
-
-}*/
 
 void ModuleManager::shutdown() {
     for(auto& mod : moduleList) {
@@ -544,7 +405,7 @@ void ModuleManager::onLoadConfig(void* conf) {
         return;
 
     if(!ModuleManager::hasInitialized) {
-        Client::DisplayClientMessage("Insert your key first! .key [key]", MCTF::RED);
+        //Client::DisplayClientMessage("Insert your key first! .key [key]", MCTF::RED);
         return;
     }
 
@@ -559,7 +420,7 @@ void ModuleManager::onSaveConfig(void* conf) {
         return;
 
     if(!ModuleManager::hasInitialized) {
-        Client::DisplayClientMessage("Insert your key first! .key [key]", MCTF::RED);
+        //Client::DisplayClientMessage("Insert your key first! .key [key]", MCTF::RED);
         return;
     }
 

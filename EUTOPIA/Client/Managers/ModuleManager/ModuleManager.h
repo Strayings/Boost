@@ -59,7 +59,7 @@
 #include "Modules/Category/Player/PlayerInfo.h"
 #include "Modules/Category/Player/PopCounter.h"
 #include "Modules/Category/Player/SurfaceTP.h"
-#include "Modules/Category/Client/AutoKey.h"
+//#include "Modules/Category/Client/AutoKey.h"
 #include "Modules/Category/World/WorldScanner.h"
 // Test
 #include "Modules/Category/Test/TestModule.h"

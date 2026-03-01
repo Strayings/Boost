@@ -22,7 +22,7 @@ bool ConfigManager::doesConfigExist(const std::string& name) {
 
 void ConfigManager::createNewConfig(const std::string& name) {
     if(!ModuleManager::hasInitialized) {
-        Client::DisplayClientMessage("Insert your key first! .key [key]", MCTF::RED);
+        //Client::DisplayClientMessage("Insert your key first! .key [key]", MCTF::RED);
         return;
     }
 
@@ -43,7 +43,7 @@ void ConfigManager::createNewConfig(const std::string& name) {
 
 void ConfigManager::loadConfig(const std::string& name) {
     if(!ModuleManager::hasInitialized) {
-        Client::DisplayClientMessage("Insert your key first! .key [key]", MCTF::RED);
+        //Client::DisplayClientMessage("Insert your key first! .key [key]", MCTF::RED);
         return;
     }
 

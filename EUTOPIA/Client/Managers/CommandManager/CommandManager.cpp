@@ -9,8 +9,8 @@
 #include "Commands/FriendCommand.h"
 #include "Commands/HelpCommand.h"
 #include "Commands/IRCCommand.h"
-#include "Commands/AICommand.h"
-#include "Commands/KeyCommand.h"
+//#include "Commands/AICommand.h"
+//#include "Commands/KeyCommand.h" poo shiddy
 #include "Commands/FindPlayer.h"
 #include "Commands/SetPosCommand.h"
 #include "Commands/Toggle.h"
@@ -33,7 +33,7 @@ void CommandManager::init() {
     commandList.push_back(new FriendCommand());
     commandList.push_back(new HelpCommand());
     commandList.push_back(new IRCCommand());
-    commandList.push_back(new KeyCommand());
+    //commandList.push_back(new KeyCommand());
     commandList.push_back(new FindPlayer());
     commandList.push_back(new Toggle());
     commandList.push_back(new SetSMCommand());

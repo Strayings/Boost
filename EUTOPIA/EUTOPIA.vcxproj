@@ -143,14 +143,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1.cpp" />
-    <ClCompile Include="2.cpp" />
-    <ClCompile Include="3.cpp" />
-    <ClCompile Include="4.cpp" />
-    <ClCompile Include="5.cpp" />
-    <ClCompile Include="6.cpp" />
     <ClCompile Include="Client\Client.cpp" />
-    <ClCompile Include="Client\Managers\CommandManager\Commands\AICommand.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\CommandManager.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\AssistantCommand.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\BindCommand.cpp" />
@@ -163,7 +156,6 @@
     <ClCompile Include="Client\Managers\CommandManager\Commands\FriendCommand.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\HelpCommand.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\IRCCommand.cpp" />
-    <ClCompile Include="Client\Managers\CommandManager\Commands\KeyCommand.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\SetPosCommand.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\SetSMCommand.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\ThemeCommand.cpp" />
@@ -171,28 +163,18 @@
     <ClCompile Include="Client\Managers\CommandManager\Commands\TracerCommand.cpp" />
     <ClCompile Include="Client\Managers\CommandManager\Commands\UnbindCommand.cpp" />
     <ClCompile Include="Client\Managers\ConfigManager\ConfigManager.cpp" />
-    <ClCompile Include="Client\Managers\ConfigManager\KeyManager.cpp" />
     <ClCompile Include="Client\Managers\FeatureManager\FeatureManager.cpp" />
     <ClCompile Include="Client\Managers\HooksManager\HookManager.cpp" />
     <ClCompile Include="Client\Managers\HooksManager\Hooks\FuncHook.cpp" />
     <ClCompile Include="Client\Managers\HooksManager\Hooks\Network\PacketReceiveHook.cpp" />
     <ClCompile Include="Client\Managers\HooksManager\Hooks\SetUpAndRenderHook.cpp" />
-    <ClCompile Include="Client\Managers\KeyManager\KeyManager.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\923829mksd.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\fwhibhnvwq.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\idjvijsdneoamv.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\iokfehihv.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\ModuleManager.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\32ueu2j.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\AIChat.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ArrayList.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\Audio.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\AudioData.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\AutoKey.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\BGAnimation.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGUI.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGuiNew.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ClientMainUI.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ColorPicker.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ColorsMod.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ConfigLoader.cpp" />
@@ -203,7 +185,6 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\IRC.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\NeteaseMusicGUI.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\notifs.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\qwoihfunq23.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\SearchBox.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\ToggleSounds.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\Client\UserInfo.cpp" />
@@ -358,8 +339,6 @@
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\World\WaterTP.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\Category\World\WorldScanner.cpp" />
     <ClCompile Include="Client\Managers\ModuleManager\Modules\ModuleBase\Module.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\ojmgwokvnen.cpp" />
-    <ClCompile Include="Client\Managers\ModuleManager\orejviu9ej.cpp" />
     <ClCompile Include="Client\Managers\NotificationManager\NotificationManager.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="Libs\glm\glm\detail\glm.cpp" />
@@ -413,7 +392,6 @@
   <ItemGroup>
     <ClInclude Include="Client\Client.h" />
     <ClInclude Include="Client\Managers\CommandManager\CommandManager.h" />
-    <ClInclude Include="Client\Managers\CommandManager\Commands\AICommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\AssistantCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\BindCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\CommandBase.h" />
@@ -425,7 +403,6 @@
     <ClInclude Include="Client\Managers\CommandManager\Commands\FriendCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\HelpCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\IRCCommand.h" />
-    <ClInclude Include="Client\Managers\CommandManager\Commands\KeyCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\SetPosCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\SetSMCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\ThemeCommand.h" />
@@ -433,7 +410,6 @@
     <ClInclude Include="Client\Managers\CommandManager\Commands\TracerCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\UnbindCommand.h" />
     <ClInclude Include="Client\Managers\ConfigManager\ConfigManager.h" />
-    <ClInclude Include="Client\Managers\ConfigManager\KeyManager.h" />
     <ClInclude Include="Client\Managers\FeatureManager\event_dispatcher.h" />
     <ClInclude Include="Client\Managers\FeatureManager\FeatureManager.h" />
     <ClInclude Include="Client\Managers\HooksManager\HookManager.h" />
@@ -484,17 +460,13 @@
     <ClInclude Include="Client\Managers\HooksManager\Hooks\World\GameMode\StartDestroyBlockHook.h" />
     <ClInclude Include="Client\Managers\HooksManager\Hooks\World\GameMode\StopDestroyBlockHook.h" />
     <ClInclude Include="Client\Managers\HooksManager\Hooks\World\Level\LevelTickHook.h" />
-    <ClInclude Include="Client\Managers\KeyManager\KeyManager.h" />
     <ClInclude Include="Client\Managers\ModuleManager\ModuleManager.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\AIChat.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ArrayList.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\Audio.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\AudioData.h" />
-    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\AutoKey.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\BGAnimation.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGUI.h" />
-    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ClickGuiNew.h" />
-    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ClientMainUI.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ColorPicker.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ColorsMod.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ConfigLoader.h" />
@@ -671,7 +643,6 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\SliderSetting.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\ModuleBase\Settings\StringSetting.h" />
     <ClInclude Include="Client\Managers\NotificationManager\NotificationManager.h" />
-    <ClInclude Include="evhihewhq.h" />
     <ClInclude Include="Libs\entt\entt\config\config.h" />
     <ClInclude Include="Libs\entt\entt\config\macro.h" />
     <ClInclude Include="Libs\entt\entt\config\version.h" />
