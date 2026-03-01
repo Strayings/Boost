@@ -1,14 +1,18 @@
+## Leaked and continued by Strayings, Rusher, Johnny.
+
+---
+
 # 🚀 Boost Client
 
 **© 2025 Boost Client. All rights reserved.**
 
-Boost Client is a **private Minecraft Bedrock Edition client** developed specifically for **Minecraft BE v1.21.90**.
+Boost Client is now a **public Minecraft Bedrock Edition client** developed specifically for **Minecraft BE v1.21.90**.
 
 ---
 
 ## 📌 Overview
 
-Boost Client is a closed-source project focused on internal development and testing for Minecraft Bedrock Edition **1.21.90**.  
+Boost Client is NOW a open-source project focused on internal development and testing for Minecraft Bedrock Edition **1.21.90**.  
 It is **not intended for public redistribution** in any form.
 
 ---
