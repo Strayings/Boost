@@ -475,7 +475,6 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\Editor.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\HUD.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\IRC.h" />
-    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ircboi.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\NeteaseMusicGUI.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\notifs.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\SearchBox.h" />

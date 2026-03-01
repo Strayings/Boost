@@ -1079,7 +1079,6 @@
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ConfigLoader.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\FontCommand.h" />
     <ClInclude Include="Client\Managers\CommandManager\Commands\ThemeCommand.h" />
-    <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Client\ircboi.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Player\PlayerScanner.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Combat\KillauraReachY2.h" />
     <ClInclude Include="Client\Managers\ModuleManager\Modules\Category\Combat\KillauraReachY.h" />
